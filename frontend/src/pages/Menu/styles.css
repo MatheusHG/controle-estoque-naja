@@ -1,0 +1,116 @@
+.menu-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    
+}
+
+.menu-container header {
+    display: flex;
+    align-items: center;  
+    background: white;  
+}
+
+.menu-container header span{
+    font-size: 20px;
+    margin-left: 24px;
+    color: black;
+}
+
+.menu-container header img{
+    height: 100px;
+    margin-left: 20px;
+}
+
+.menu-container header a{
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.menu-container header button{
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: auto;
+    margin-right: 30px;
+    transition: border-color 0.2s;
+}
+
+.menu-container header button:hover{
+    border-color: #999;
+}
+
+.teste {
+    background-image:url("../../assets/ipad.png");
+}
+
+.menu-container h1{
+    margin-top: 100px;
+    margin-left: 420px;
+    margin-right: 420px;
+    color: white;
+}
+
+.menu-container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    list-style: none;
+}
+
+.menu-container ul li{
+    padding: 15px;
+    position: relative;
+}
+
+.menu-container ul li button:hover{
+    opacity: 0.8;
+}
+
+.Celular {
+    height: 170px;
+    width: 170px;
+    background: transparent;
+    border: 0px solid;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.Tv{
+    height: 170px;
+    width: 170px;
+    background: transparent;
+    border: 0px solid; 
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.Eletrodomestico{
+    height: 170px;
+    width: 170px;
+    background: transparent;
+    border: 0px solid; 
+    margin-left: 90px;
+}
+
+.Videogame{
+    height: 170px;
+    width: 170px;
+    background: transparent;
+    border: 0px solid; 
+    margin-left: 90px;
+}
+.rodapesuporte{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.rodapesuporte hover{
+    opacity: 1.0;
+}

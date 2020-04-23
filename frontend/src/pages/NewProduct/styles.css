@@ -1,0 +1,107 @@
+.new-product {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.new-product .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-product .content section{
+    width: 100%;
+    max-width: 380px;
+}
+
+.new-product .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.new-product .content section h1{
+    margin-top: 3px;
+    font-size: 32px;
+}
+
+.new-product .content section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-product .content form{
+    width: 100%;
+    max-width: 450px;
+}
+
+.new-product .content form input{
+    margin-top: 8px;
+}
+
+.new-product .content form button{
+    background: #4e0a19;
+    margin-right: 80px;
+}
+
+.new-product .content section img{
+    margin-left: 60px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.back-link link:hover{
+    opacity: 1.0;
+}
+.new-product .content form input{
+    transition: .3s;
+    color: #4e0a19;
+    padding-left: 40px;
+}
+
+.precoproduto {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: -265px;
+}
+
+.nomeproduto {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: -265px;
+}
+.quantidadeproduto {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: -265px;
+}
+.categoriaproduto {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: -265px;
+}
