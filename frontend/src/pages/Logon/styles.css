@@ -17,26 +17,80 @@
 }
 
 .logon-container section.form form{
-    margin-top: 100px;
+    margin-top: 20%;
 }
 
 .logon-container section.form form h1{
-    margin-top: -40px;
+    margin-top: 8%;
     font-size: 32px;
     margin-bottom: 32px;
     color: #ff0000;
+    width: 100%;
+}
+
+.logon-container section.form form h2{
+    color: white;
+    margin-top: 35%;
+    font-size: 120%;
 }
 
 .login_google {
-    width: 200px;
-    height: 50px;
+    width: 55%;
+    height: 10%;
     text-align: center;
     font-size: 18px;
     transition: filter 0.2s;
-    margin-top: 16px;
+    margin-top: 3%;
 }
 
-h2{
+.banner {
+    width: 100%;
+    right: 100%;
+}
+
+.logon-container .form img{
+    width: 60%;
+}
+
+.information img{
+    max-width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.janelaModal{
+    margin-top: 10%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    background: black;
+}
+
+.janelaModal img {
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.janelaModal button{
+    margin-left: 47%;
+    margin-bottom: 20px;
+}
+
+.janelaModal h1{
     color: white;
-    margin-top: 120px;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.janelaModal h2{
+    color: yellow;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
