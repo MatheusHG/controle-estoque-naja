@@ -49,21 +49,20 @@
 }
 
 .menu-container h1{
-    margin-top: 100px;
-    margin-left: 420px;
-    margin-right: 420px;
+    margin-top: 5%;
+    margin-left: 37%;
     color: white;
 }
 
 .menu-container ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 80px;
+    grid-gap: 9%;
     list-style: none;
 }
 
 .menu-container ul li{
-    padding: 15px;
+    padding: 10%;
     position: relative;
 }
 
@@ -72,38 +71,29 @@
 }
 
 .Celular {
-    height: 170px;
-    width: 170px;
     background: transparent;
     border: 0px solid;
-    margin-left: 90px;
-    margin-top: 30px;
+    margin-left: 20%;
 }
 
 .Tv{
-    height: 170px;
-    width: 170px;
     background: transparent;
     border: 0px solid; 
-    margin-left: 90px;
-    margin-top: 30px;
+    margin-left: 20%;
 }
 
 .Eletrodomestico{
-    height: 170px;
-    width: 170px;
     background: transparent;
     border: 0px solid; 
-    margin-left: 90px;
+    margin-left: 20%;
 }
 
 .Videogame{
-    height: 170px;
-    width: 170px;
     background: transparent;
     border: 0px solid; 
-    margin-left: 90px;
+    margin-left: 20%;
 }
+
 .rodapesuporte{
     position: fixed;
     right: 20px;
