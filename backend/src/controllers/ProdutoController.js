@@ -2,9 +2,17 @@ const connection = require('../database/connection');
 
 module.exports = {
     async index (requisicao, resposta) {
-        const produtos = await connection('produto').select('*').where(requisicao.query);
-
-        return resposta.json(produtos);
+        const { categoria } = requisicao.query;
+        try {
+            if(categoria) {
+                var produtos = await connection('produto').where({categoria})
+            }else{
+                var produtos = await connection('produto');
+            }
+            return resposta.status(200).json(produtos);
+        } catch(err) {{
+            return resposta.status(400).json({error: err.message})
+        }}
     },
 
     async create (requisicao, resposta) {
