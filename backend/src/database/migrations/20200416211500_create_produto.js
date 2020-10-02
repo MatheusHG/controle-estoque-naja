@@ -1,5 +1,6 @@
 exports.up = function(knex) {
     return knex.schema.createTable('produto', function (table){
+        table.increments('id').primary();
         table.string('nome').notNullable();
         table.string('categoria').notNullable();
         table.decimal('preco').notNullable();
