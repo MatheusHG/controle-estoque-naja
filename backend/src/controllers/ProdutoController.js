@@ -18,14 +18,14 @@ module.exports = {
     async create (requisicao, resposta) {
         try {
             const { nome, categoria, preco, quantidade } = requisicao.body;
-            await connection('produto').insert({
+            const id = await connection('produto').insert({
                 nome,
                 categoria,
                 preco,
                 quantidade,
-            })
+            });
 
-            return resposta.status(201).json("Produto Cadastrado!");
+            return resposta.status(201).json(id);
 
         }catch(err) {
             return resposta.status(400).json({error: err.message});
@@ -34,8 +34,8 @@ module.exports = {
     },
 
     async delete (requisicao, resposta) {
-        const { nome } = requisicao.params;
-        await connection('produto').where('nome', nome).delete();
+        const { id } = requisicao.params;
+        await connection('produto').where({id}).delete();
 
         return resposta.status(204).json({message: 'Produto deletado!'});
     }
